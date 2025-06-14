@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "NanumPenScript";
+  src: url("/NanumPenScript-Regular.ttf");
+}
+/* public 폴더는 /경로로 매핑됨 */
+
+html,
+body {
+  margin: 0px;
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+}
+
+/* id가 root인 요소의 스타일 설정  = 메인 컴포넌트의 스타일 설정 */
+#root {
+  background-color: white;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  height: 100%;
+  box-shadow: rgba(100, 100, 100, 0.2) 0px 0px 29px 0px;
+  padding: 0px 20px;
+}
+
+body * {
+  font-family: "NanumPenScript";
+}
